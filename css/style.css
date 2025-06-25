@@ -44,12 +44,12 @@ h2 {
 }
 
 div {
-    border-style: solid;
+    border: solid 0.1px;
     margin: 20px 30%;
     padding: 20px 5px;
     width: 30%;
     border-radius: 10px;
-    border-width: 3px;
+    box-shadow: 1px 3px 10px black;
 }
 
 h3{
@@ -65,5 +65,5 @@ footer{
     background-color: blue;
     color: white;
     text-align: center;
-    padding: 5px 0;
+    padding: 10px 0;
 }
